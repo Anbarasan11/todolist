@@ -10,7 +10,7 @@ export const ShowTask = ( {tasklist, setTasklist , task , setTask} ) => {
 
 
    const handleDelete = (id) => {
-    const updateTask = tasklist.filter(todo => todo . id !== id);
+    const updateTask = tasklist.filter(todo => todo.id!== id);
     setTasklist(updateTask);
    }
 
